@@ -1,0 +1,38 @@
+{
+  "name": "genpark-responsive-interactive-web-card-presentation-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Responsive interactive web presentation compiler generating animated cards with live data visualizations.",
+  "author": "genpark",
+  "category": "presentation-web",
+  "tags": [
+    "interactive-cards",
+    "gamma-web",
+    "presentation-deck",
+    "responsive-slides",
+    "data-viz"
+  ],
+  "inputs": {
+    "presentation_topic": {
+      "type": "string"
+    },
+    "target_cards": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "web_deck_id": {
+      "type": "string"
+    },
+    "cards_count": {
+      "type": "integer"
+    },
+    "live_web_share_url": {
+      "type": "string"
+    },
+    "pdf_vector_export_ready": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
